@@ -9,7 +9,7 @@ Hardik ST.
 Menu
 
 .nav__name
-Hardik Singh Thakuri
+Hardik
 
 .nav__link
 Home - About Me - Projects - Contact Me
