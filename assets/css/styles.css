@@ -1,0 +1,13 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/* Variables CSS */
+:root{
+    --header-height: 3.5rem;
+
+    /* Colors */
+
+
+    /* Font and Typography */
+    --body-font: 'Bai Jamjuree', sans-serif;
+}
