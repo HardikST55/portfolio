@@ -20,14 +20,15 @@ Home - About Me - Projects - Contact Me
 Hardik ST
 
 .home__social-link
-https://www.instagram.com/
+https://www.facebook.com/
 https://www.linkedin.com/
 https://github.com/
 
 .home__description
-<b>Frontend Developer</b>, with knowledge in web 
-development and design, <b>Python Application Developer</b>, with database integration
-and also <b>LOGO and Graphics</b>, with layers, vectors and high quality formats.
+<b>Frontend Developer</b> with knowledge in web development and design, 
+<b>Python Application Developer</b> with database integration and also 
+<b>LOGO and Graphics</b> with layers, vectors and high many formats, 
+I offer best projects resulting in quality work.
 
 .home__scroll-text
 Scroll Down
