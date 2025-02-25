@@ -40,8 +40,8 @@ About Me.
 
 .about__description
 Passionate about creating <b>Web Pages</b> with 
-<b>UI/UX User Interface</b>, <b>Apps and Games</b>
-as well as <b>Arts and Illustrations</b> as per the
+<b>UI/UX User Interface</b> and <b>Apps & Games</b>
+as well as <b>Arts & Illustrations</b> as per the
 wishes of my clients' needs and happiness.
 
 .about__item
