@@ -139,6 +139,7 @@ img {
     position: absolute;
     top: -4px;
     right: -8px;
+    border-radius: .25rem;
 }
 
 .section__title-2::after {
@@ -148,20 +149,22 @@ img {
 
 .geometric-box {
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 26px;
+    height: 26px;
     background-color: var(--first-color);
     rotate: -30deg;
+    border-radius: .5rem;
 }
 
 .geometric-box::after {
     content: "";
     position: absolute;
-    width: 16px;
-    height: 16px;
+    width: 22px;
+    height: 22px;
     border: 3px solid var(--black-color);
     left: -5px;
     top: -5px;
+    border-radius: .5rem;
 }
 
 .main {
@@ -201,12 +204,9 @@ img {
     height: 32px;
     background-color: var(--black-color);
     color: var(--white-color);
+    border-radius: .5rem;
     display: grid;
     place-items: center;
-}
-
-.nav__logo-circle {
-    border-radius: 50%;
 }
 
 .nav__toggle {
@@ -340,6 +340,7 @@ img {
 
 .home__img {
     position: relative;
+    border-radius: 1.25rem;
     z-index: 10;
 }
 
@@ -351,6 +352,7 @@ img {
     bottom: -.75rem;
     right: -.75rem;
     border: 4px solid var(--black-color);
+    border-radius: 1.75rem;
     z-index: 5;
     transition: background-color .5s;
 }
@@ -393,10 +395,11 @@ img {
 .home__social-link {
     background-color: var(--black-color-light);
     color: var(--white-color);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 6px;
     display: grid;
     place-items: center;
+    border-radius: .5rem;
     transition: background-color .5s;
 }
 
@@ -415,9 +418,11 @@ img {
 }
 
 .home__description b {
+    padding-left: .25rem;
     background: linear-gradient(90deg,
                 hsla(256, 75%, 50%, .25),
                 hsla(256, 75%, 50%, 0));
+    border-radius: .25rem;
 }
 
 .home__scroll {
@@ -440,6 +445,7 @@ img {
     font-size: 1rem;
     cursor: pointer;
     overflow: hidden;
+    border-radius: .5rem;
     transition: background-color .5s;
 }
 
@@ -478,6 +484,7 @@ img {
     color: var(--white-color);
     font-weight: var(--font-medium);
     transition: background-color .5s;
+    border-radius: .75rem;
 }
 
 .button i {
@@ -493,6 +500,7 @@ img {
     color: var(--black-color);
     padding: 0.5rem;
     transition: border .5s, color .5s;
+    border-radius: .5rem;
 }
 
 .button__ghost i {
@@ -526,6 +534,7 @@ img {
 .about__img {
     position: relative;
     border: 4px solid var(--white-color);
+    border-radius: .75rem;
     z-index: 1;
 }
 
@@ -541,6 +550,7 @@ img {
     background-color: var(--body-color);
     top: -2.5rem;
     right: -3.5em;
+    border-radius: 1rem;
     border-bottom: 4px solid var(--first-color);
     transition: background-color .5s;
 }
@@ -559,11 +569,12 @@ img {
 }
 
 .about__box {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     background-color: var(--first-color);
-    right: -0.5rem;
+    right: -.5rem;
     bottom: 1.5rem;
+    border-radius: .25rem;
 }
 
 .about__info {
