@@ -237,7 +237,7 @@ img {
 
 .nav__title {
     display: block;
-    font-size: var(--smaller-font-size);
+    font-size: var(--small-font-size);
     font-weight: var(--font-semi-bold);
     margin-bottom: 3.5rem;
 }
