@@ -566,15 +566,16 @@ img {
     position: absolute;
 }
 
-/* .about__shadow {
+.about__shadow {
     width: 150px;
     height: 385px;
     background-color: var(--body-color);
     top: -2.5rem;
     right: -3.5em;
+    border-radius: 1.25rem;
     border-bottom: 4px solid var(--first-color);
     transition: background-color .5s;
-} */
+}
 
 .about__perfil .geometric-box {
     top: 1.5rem;
