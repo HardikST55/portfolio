@@ -686,22 +686,22 @@ body.dark-theme {
 }
 
 .about__description {
+    text-align: center;
     position: relative;
     color: var(--title-color);
     margin-bottom: 1.5rem;
 }
 
-.about__description::after {
-    content: "";
-    width: 20px;
-    height: 1px;
-    background-color: var(--title-color);
-    position: absolute;
-    left: -1.75rem;
-    top: .5rem;
+.about__description b {
+    padding-left: .25rem;
+    background: linear-gradient(90deg,
+                hsla(256, 75%, 50%, .25),
+                hsla(256, 75%, 50%, 0));
+    border-radius: .25rem;
 }
 
 .about__list {
+    text-align: center;
     list-style: square;
     color: var(--title-color);
     margin-bottom: 3rem;
@@ -1480,12 +1480,21 @@ body.dark-theme {
         padding-left: 3rem;
     }
 
+    .about__name,
+    .about__description,
+    .about__list {
+        text-align: initial;
+    }
+
     .about__description {
         font-size: var(--h2-font-size);
         margin-bottom: 2rem;
     }
 
     .about__description::after {
+        content: "";
+        background-color: var(--title-color);
+        position: absolute;
         width: 32px;
         height: 2px;
         left: -3rem;
