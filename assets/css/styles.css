@@ -475,7 +475,7 @@ body.dark-theme {
 }
 
 .home__perfil .geometric-box {
-    top: 2.5rem;
+    top: 1.5rem;
     left: -0.75rem;
     z-index: 10;
 }
@@ -493,6 +493,8 @@ body.dark-theme {
 
 .home__social-link {
     background-color: var(--black-color-light);
+    width: 35px;
+    height: 35px;
     color: var(--white-color);
     font-size: 1.5rem;
     padding: 6px;
@@ -1319,6 +1321,11 @@ body.dark-theme {
 
     .change-theme:hover {
         color: var(--title-color);
+    }
+
+    .home__social-link {
+        width: 40px;
+        height: 40px;
     }
 
     .home__container {
