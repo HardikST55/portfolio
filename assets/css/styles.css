@@ -481,7 +481,7 @@ body.dark-theme {
 }
 
 .home__social {
-    height: max-content;
+    height: 50%;
     position: absolute;
     left: -3rem;
     top: 0;
@@ -502,6 +502,12 @@ body.dark-theme {
     place-items: center;
     border-radius: .5rem;
     transition: background-color .5s;
+}
+
+.home__social-link i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .home__social-link:hover {
