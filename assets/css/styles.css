@@ -1041,6 +1041,7 @@ body.dark-theme {
     background-color: hsl(0, 0%, 10%);
     padding-block: 1rem 2rem;
     text-align: center;
+    transition: background-color .5s, width .5s;
 }
 
 .contact__social-arrow {
@@ -1228,6 +1229,8 @@ body.dark-theme {
 
     .contact__social {
         background-color: transparent;
+        width: 100vw;
+        justify-self: center;
     }
 
     .contact__mail {
@@ -1627,6 +1630,8 @@ body.dark-theme {
     .contact__social {
         margin-left: 8rem;
         text-align: initial;
+        width: 100%;
+        justify-self: start;
     }
 
     .contact__social-data {
