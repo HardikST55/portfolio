@@ -178,10 +178,6 @@ body.dark-theme {
     box-shadow: 0 1px 16px hsla(256, 75%, 60%, 0.5);
 }
 
-.dark-theme .nav__menu {
-    background-color: hsla(256, 75%, 10%, 0.75);
-}
-
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
     max-width: 1120px;
