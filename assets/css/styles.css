@@ -145,6 +145,11 @@ body.dark-theme {
 .dark-theme :is(.button__ghost, .services__icon i) {
     color: var(--white-color);
 }
+
+.dark-theme .services__box {
+    background-color: hsla(256, 75%, 60%, .5);
+}
+
 .dark-theme .projects__card:hover {
     background-color: var(--body-color);
 }
